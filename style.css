@@ -1,0 +1,33 @@
+body{
+
+background:#f5f7fb;
+
+}
+
+h1{
+
+color:#0066cc;
+
+}
+
+.stButton>button{
+
+background:#0066cc;
+
+color:white;
+
+border-radius:10px;
+
+height:45px;
+
+width:100%;
+
+font-size:18px;
+
+}
+
+with open("style.css") as f:
+    st.markdown(
+        f"<style>{f.read()}</style>",
+        unsafe_allow_html=True
+    )
